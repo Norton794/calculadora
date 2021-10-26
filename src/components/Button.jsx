@@ -1,6 +1,6 @@
 import React from "react";
 
-export default () => {
+export default ({label}) => {
   const style = {
     fontSize: "1.4em",
     backgroundColor: "#fff",
@@ -10,5 +10,5 @@ export default () => {
     outline: 'none',
   };
 
-  return <button style={style} className="button">0</button>;
+  return <button style={style} className="button">{label}</button>;
 };

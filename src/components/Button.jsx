@@ -7,6 +7,7 @@ export default () => {
     border: "none",
     borderRight: "solid 1px #888",
     borderBottom: '1px solid #888',
+    outline: 'none',
   };
 
   return <button style={style} className="button">0</button>;
